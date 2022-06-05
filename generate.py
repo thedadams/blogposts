@@ -39,8 +39,14 @@ def generate_tag_post_file() -> None:
     with open(POST_TAGS_FILE, 'w') as f:
         f.write(json.dumps(all_tags))
 
+    all_posts_sorted = [
+        {"year": year, "months": [
+            {"month": month, "days": [
+                {"day": day, "titles": titles} for day, titles in sorted(days.items())]
+             } for month, days in sorted(months.items())]
+         } for year, months in sorted(all_posts.items())]
     with open(POSTS_FILE, 'w') as f:
-        f.write(json.dumps(all_posts))
+        f.write(json.dumps(all_posts_sorted))
 
 
 def generate_rss_feed() -> None:
@@ -87,8 +93,8 @@ def generate_rss_feed() -> None:
                 f.write(
                     '\t\t<description><![CDATA[' +
                     file_json["body"].replace(
-                            'href="/Post.html?post=',
-                            'href="https://thedadams.com/Post.html?post=', -1
+                        'href="/Post.html?post=',
+                        'href="https://thedadams.com/Post.html?post=', -1
                     ) + ']]></description>\n'
                 )
                 f.write('\t\t<link>https://thedadams.com/Post.html?post=' +

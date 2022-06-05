@@ -42,9 +42,9 @@ def generate_tag_post_file() -> None:
     all_posts_sorted = [
         {"year": year, "months": [
             {"month": month, "days": [
-                {"day": day, "titles": titles} for day, titles in sorted(days.items())]
-             } for month, days in sorted(months.items())]
-         } for year, months in sorted(all_posts.items())]
+                {"day": day, "titles": titles} for day, titles in sorted(days.items(), reverse=True)]
+             } for month, days in sorted(months.items(), reverse=True)]
+         } for year, months in sorted(all_posts.items(), reverse=True)]
     with open(POSTS_FILE, 'w') as f:
         f.write(json.dumps(all_posts_sorted))
 

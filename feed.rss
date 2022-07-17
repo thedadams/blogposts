@@ -4,7 +4,7 @@
 <channel>
 	<title>The Blog of a Math Nerd</title>
 	<description>Sports, math, programming</description>
-	<atom:link href=https://thedadams.com/feed.rss" rel="self"             type="application/rss+xml"/>
+	<atom:link href="https://raw.githubusercontent.com/thedadams/blogposts/main/feed.rss" rel="self"             type="application/rss+xml"/>
 	<link>https://thedadams.com/Blog.html</link>
 	<copyright>&#169; Donnie Adams</copyright>
 

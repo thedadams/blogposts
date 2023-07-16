@@ -58,11 +58,9 @@ def generate_rss_feed() -> None:
         sys.exit(1)
 
     f.write('<?xml version="1.0"?>\n')
-    f.write('<rss version="2.0" xmlns:atom=http://www.w3.org/2005/Atom">\n\n')
+    f.write('<rss version="2.0">\n\n')
     f.write('<channel>\n\t<title>The Blog of a Math Nerd</title>\n')
     f.write('\t<description>Sports, math, programming</description>\n')
-    f.write('\t<atom:link href=https://thedadams.com/feed.rss" rel="self" \
-            type="application/rss+xml"/>\n')
     f.write('\t<link>https://thedadams.com/blog.html</link>\n')
     f.write('\t<copyright>&#169; Donnie Adams</copyright>\n')
     years = os.listdir(POST_ROOT)

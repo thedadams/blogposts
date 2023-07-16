@@ -63,7 +63,7 @@ def generate_rss_feed() -> None:
     f.write('\t<description>Sports, math, programming</description>\n')
     f.write('\t<atom:link href=https://thedadams.com/feed.rss" rel="self" \
             type="application/rss+xml"/>\n')
-    f.write('\t<link>https://thedadams.com/Blog.html</link>\n')
+    f.write('\t<link>https://thedadams.com/blog.html</link>\n')
     f.write('\t<copyright>&#169; Donnie Adams</copyright>\n')
     years = os.listdir(POST_ROOT)
     years.sort(reverse=True)
@@ -93,17 +93,17 @@ def generate_rss_feed() -> None:
                 f.write(
                     '\t\t<description><![CDATA[' +
                     file_json["body"].replace(
-                        'href="/Post.html?post=',
-                        'href="https://thedadams.com/Post.html?post=', -1
+                        'href="/post.html?post=',
+                        'href="https://thedadams.com/post.html?post=', -1
                     ) + ']]></description>\n'
                 )
-                f.write('\t\t<link>https://thedadams.com/Post.html?post=' +
+                f.write('\t\t<link>https://thedadams.com/post.html?post=' +
                         year + '-' + month + '-' + d +
                         '</link>\n'
                         )
                 f.write(
                     '\t\t<guid isPermaLink="false">\
-                    https://thedadams.com/Post.html?post=' +
+                    https://thedadams.com/post.html?post=' +
                     year + '-' + month + '-' + d +
                     '</guid>\n'
                 )

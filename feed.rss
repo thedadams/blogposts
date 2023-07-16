@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom=http://www.w3.org/2005/Atom">
 
 <channel>
 	<title>The Blog of a Math Nerd</title>
 	<description>Sports, math, programming</description>
-	<atom:link href="https://raw.githubusercontent.com/thedadams/blogposts/main/feed.rss" rel="self"             type="application/rss+xml"/>
-	<link>https://thedadams.com/Blog.html</link>
+	<atom:link href=https://thedadams.com/feed.rss" rel="self"             type="application/rss+xml"/>
+	<link>https://thedadams.com/blog.html</link>
 	<copyright>&#169; Donnie Adams</copyright>
 
 	<item>
@@ -25,8 +25,8 @@
 <br>
 <p>And I am proud to say that all 15 players played in all 18 games.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2020-06Jun-24</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2020-06Jun-24</guid>
+		<link>https://thedadams.com/post.html?post=2020-06Jun-24</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2020-06Jun-24</guid>
 		<pubDate>Jun 24 2020</pubDate>
 
 	</item>
@@ -56,8 +56,8 @@
 <p>Finally, on Sunday, just 6 days after my grandmother's sudden passing, Gary died. He was surrounded by his daughters and their families and his final moments were peaceful.</p>
 <br>
 <p>The week started out very innocently: I was going to help my dad with some work at his place during a three-day weekend. I never would have guessed that it would have ended up as it did. Crazy things happen. I did questioned whether it was really necessary for me to make the 10 hour drive to Northern California to see Gary. Seeing him and talking to him made it worth it for me, but now I know that there were bigger reasons for me to make that trip. It turned out that I was the last person to see my grandmother alive, the last person to hug her, and the last person to tell her that I loved her. In addition, I got be with my family during the worst week imaginable.</p>]]></description>
-		<link>https://thedadams.com/Post.html?post=2020-06Jun-21</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2020-06Jun-21</guid>
+		<link>https://thedadams.com/post.html?post=2020-06Jun-21</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2020-06Jun-21</guid>
 		<pubDate>Jun 21 2020</pubDate>
 
 	</item>
@@ -74,8 +74,8 @@
 <br>
 <p>I've been a professional software developer for about 10 months now, building applications that people use all around the world (I know this because I get bugs from them all the time). I was introduced to a product that had given the company some issues in the recent past and was asked to make it better. I'm proud to say that I have done that, mostly independently. I've fixed bugs, implemented new features, transitioned the cloud component of the product to Docker and Kubernetes, and incorporated Prometheus metrics and Grafana visualization. It has been a tremendous learning experience and I am looking forward to the future of my new career.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2020-03Mar-23</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2020-03Mar-23</guid>
+		<link>https://thedadams.com/post.html?post=2020-03Mar-23</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2020-03Mar-23</guid>
 		<pubDate>Mar 23 2020</pubDate>
 
 	</item>
@@ -92,8 +92,8 @@
 <br>
 <p>Now that I am working from home for the foreseeable future because of the coronavirus pandemic, I plan to make writing and creative activities a priority in hopes that it sticks when life gets back to (the new) normal. I look forward to writing about the things that matter most to me.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2020-03Mar-22</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2020-03Mar-22</guid>
+		<link>https://thedadams.com/post.html?post=2020-03Mar-22</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2020-03Mar-22</guid>
 		<pubDate>Mar 22 2020</pubDate>
 
 	</item>
@@ -110,8 +110,8 @@
 <br>
 <p>For the record, Apple and AT&amp;T deserve lots of credit for the way they handled things for my mom. After we explain the situation, Apple told us exactly what information we needed in order to prove that she owned the phone, AT&amp;T gave us that information quickly, and Apple removed the Activation Lock. It is comforting to know that companies will take care of their customers in times of hardship, but I would rather make it as easy as possible for them. Please use a password manager to make your life easier and safer, and help your loved ones in case of something tragic.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2017-05May-21</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2017-05May-21</guid>
+		<link>https://thedadams.com/post.html?post=2017-05May-21</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2017-05May-21</guid>
 		<pubDate>May 21 2017</pubDate>
 
 	</item>
@@ -134,8 +134,8 @@
 <br>
 <p>It is in this light that I reflect on Bobby's life, rather the end of Bobby's life. It came to such an abrupt and shocking end that I cannot help but to search for the good that will come from it. So far I have seen estranged family members speaking again and people getting their health issues in check. I'm sure it will be some time before we know exactly what good will come of this sudden tragedy, but I know Bobby would want us to find it.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2017-05May-13</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2017-05May-13</guid>
+		<link>https://thedadams.com/post.html?post=2017-05May-13</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2017-05May-13</guid>
 		<pubDate>May 13 2017</pubDate>
 
 	</item>
@@ -151,8 +151,8 @@
 <p>I keep rankings of all the players for the fantasy leagues in which I participate. Therefore, it was easy for me to output a list of names I could use in a script. After poking around ESPN's page a little bit, I was able to hack the list and update the pre-draft rankings automatically. Since I spent some time with it, I would like to provide that for others to use, too. All you would have to do is replace "myList" with the order you would like to use in your rankings. I would also suggest updating your "Draft Strategy" to limit the number of players drafted for each position. Enjoy!</p>
 <br>
 <script src="https://gist.github.com/thedadams/f59ed6661178d18b24037a371b352ed2.js"></script>]]></description>
-		<link>https://thedadams.com/Post.html?post=2017-03Mar-31</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2017-03Mar-31</guid>
+		<link>https://thedadams.com/post.html?post=2017-03Mar-31</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2017-03Mar-31</guid>
 		<pubDate>Mar 31 2017</pubDate>
 
 	</item>
@@ -169,8 +169,8 @@
 <br>
 <p>It's interesting how life comes together. I do believe in God, and I do believe that there is something bigger at work here. Can it really just be a coincidence that this opportunity came to me one week after Google told me they weren't going to offer me a position? It might sound crazy, but I may have stumbled upon my calling.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2017-03Mar-30</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2017-03Mar-30</guid>
+		<link>https://thedadams.com/post.html?post=2017-03Mar-30</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2017-03Mar-30</guid>
 		<pubDate>Mar 30 2017</pubDate>
 
 	</item>
@@ -187,8 +187,8 @@
 <br>
 <p>Working late at night is not for everyone, but neither is waking up early in the morning. I think employees and employers can benefit from being flexible about working hours. Forcing someone to work outside of their natural rhythms now seems counterproductive. I believe that a person can be an early-riser or a night-owl just as much as they can be analytical or creative (I'm definitely analytical). Figuring out which category you fall in can literally be the difference between happy and miserable or success and failure. I wouldn't replace Jony Ive with a mathematician and expect great results.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2017-03Mar-05</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2017-03Mar-05</guid>
+		<link>https://thedadams.com/post.html?post=2017-03Mar-05</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2017-03Mar-05</guid>
 		<pubDate>Mar 05 2017</pubDate>
 
 	</item>
@@ -205,8 +205,8 @@
 <br>
 <p>The entire experience was great. I learned a lot about programming, interviewing, Google, and myself. There was a 99.9% chance that I would have accepted a position if one were offered to me, but, at this point in my life, I am glad that I don't have to move to the San Francisco Bay Area (it would have been nice to be closer to my family, however). I was told that Google might reach out to me again in a year or so. If they do, I'll be ready.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2017-03Mar-03</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2017-03Mar-03</guid>
+		<link>https://thedadams.com/post.html?post=2017-03Mar-03</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2017-03Mar-03</guid>
 		<pubDate>Mar 03 2017</pubDate>
 
 	</item>
@@ -223,8 +223,8 @@
 <br>
 <p>After coming to the realization that I wasn't 100% satisfied with my purchase, I decided to get the most out of my new Apple Watch. I installed a bunch of new apps. I use Apple Pay everywhere. I reply to text messages on my watch. I have even started running for exercise. Only one of these I could not do on a Pebble Time 2, but at least I feel like I am getting my money's worth out of my Apple Watch. Here's hoping that Apple improves the functionality with software updates.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2016-10Oct-28</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2016-10Oct-28</guid>
+		<link>https://thedadams.com/post.html?post=2016-10Oct-28</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2016-10Oct-28</guid>
 		<pubDate>Oct 28 2016</pubDate>
 
 	</item>
@@ -241,8 +241,8 @@
 <br>
 <p>I'm sure Apple with handle this gracefully; they haven't given me any reason to doubt them.  However, if Apple's decisions force my technological life to change significantly then the employees at the <a href="http://maps.apple.com/?address=Chandler+Fashion+Center,+Apple+Store" title="Chandler Fashion Center Apple Store">Chandler Fashion Center Apple Store</a> will be getting a visit for me.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2016-06Jun-13</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2016-06Jun-13</guid>
+		<link>https://thedadams.com/post.html?post=2016-06Jun-13</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2016-06Jun-13</guid>
 		<pubDate>Jun 13 2016</pubDate>
 
 	</item>
@@ -272,8 +272,8 @@
 <br>
 <p>The bottom line is that it is possible to help yourself sleep better and wake up more rested each day.  Doing so is difficult and takes discipline; I have already had to tell friends that I couldn't grab a beer with them because it was later than 19:00.  In my opinion, the productivity and energy I enjoy throughout my waking hours is worth the sacrifices I have made.  There is plenty of time for beer between 05:00 and 19:00.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2016-03Mar-21</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2016-03Mar-21</guid>
+		<link>https://thedadams.com/post.html?post=2016-03Mar-21</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2016-03Mar-21</guid>
 		<pubDate>Mar 21 2016</pubDate>
 
 	</item>
@@ -298,8 +298,8 @@ launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
 <br>
 <p>That's it!  Every hour, your computer will run the Python script, check to see if your IP address has been changed, and update CloudFlare's settings, if necessary.  If you have any issues or questions, please do not hesitate to contact me via <a href="" target="_blank">Twitter</a> or <a href="" target="_blank">ADN</a>.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2016-01Jan-15</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2016-01Jan-15</guid>
+		<link>https://thedadams.com/post.html?post=2016-01Jan-15</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2016-01Jan-15</guid>
 		<pubDate>Jan 15 2016</pubDate>
 
 	</item>
@@ -316,8 +316,8 @@ launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
 <br>
 <p>The people at University of Missouri should be ashamed of themselves.  I know there is a graduate student that would gladly accept minimum wage to collect, copy, and ship these records.  Even if this person makes $10 per hour (I never made that much in college in San Diego), it would take over 94 hours of work to make those fees legitimate.  Domenica even joked that we could fly to Missouri and get the records ourselves for less than the $942.15 they are asking from us.  Thankfully, the wonderful people at Beagle Freedom Project are helping us deal with the university and get these fees to a more reasonable level.  I look forward to sharing the results of our inquiry.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2015-07Jul-16</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2015-07Jul-16</guid>
+		<link>https://thedadams.com/post.html?post=2015-07Jul-16</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2015-07Jul-16</guid>
 		<pubDate>Jul 16 2015</pubDate>
 
 	</item>
@@ -334,8 +334,8 @@ launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
 <br>
 <p>In total, Aaron is in the top five in homeruns, hits, extra base hits, total bases, runs batted in, runs score, at-bats, plate appearances, games played, and intentional walks in a career.  Most of this was accomplished in the midst of hate mail and innumerable death threats.  His ability to hit a baseball is out matched only by his ability to maintain focus on the field despite immense distractions.  Taking the circumstances of his career and what he was able to accomplish, Hank Aaron deserves to be in the debate for the title of GOAT.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2015-05May-13</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2015-05May-13</guid>
+		<link>https://thedadams.com/post.html?post=2015-05May-13</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2015-05May-13</guid>
 		<pubDate>May 13 2015</pubDate>
 
 	</item>
@@ -354,8 +354,8 @@ launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
 <br>
 <p>I am writing this to make anyone who reads this aware that these things happen.  A few years ago, I was completely ignorant of this.  It may seem like one person cannot make a significant dent in such a large problem, but there are tangible things one can do.  You can start by supporting the <a href="http://www.beaglefreedomproject.org/right_to_release" target="_blank" title="Support Beagle Freedom Bill">Beagle Freedom Bill</a>.  You can also make a more dramatic change by going "cruelty-free" and only using products that have not been tested on animals.  There is an <a href="http://cruelty-cutter.org" target="_blank" title="Cruelty Cutter">app</a> to help you find products that aren't tested on animals.  If you would like information regarding the efforts you can make to help these animals, please do not hesitate to reach out to me on <a href="http://twitter.com/thedadams" target="_blank" title="thedadams on Twitter">Twitter</a> or <a href="http://alpha.app.net/thedadams" target="_blank" title="thedadams on App.net">App.net</a>.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2015-03Mar-09</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2015-03Mar-09</guid>
+		<link>https://thedadams.com/post.html?post=2015-03Mar-09</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2015-03Mar-09</guid>
 		<pubDate>Mar 09 2015</pubDate>
 
 	</item>
@@ -369,8 +369,8 @@ launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
 <p>This has increased the complexity a bit, but I am very happy with it.  There are 4 total HTML files: the welcome page, the post page, the archive page, and the credits page.  The content displayed on the post and archive pages are controlled via a <code>GET</code> string.  It's hard to think of ways someone might break your code, but I've tried to make this as robust as possible.  That is, if the reader changes the <code>GET</code> string to something crazy, the code is smart enough to make an adjustment and display something meaningful.  Most importantly, as the blog grows building this content will not be hindered - it will remain as quick as it is now.</p>
 <p>The biggest change was incorporating tags for each post.  It wasn't difficult to tag each existing entry because there aren't very many of them.  The difficult part was making sure that each new post (which is tagged during composition) is added to the tag list.  I refused to do this manually.  I recently constructed a workflow using <a href="http://omz-software.com/editorial/" target="_blank">Editorial</a>, <a href="https://workflow.is" target="_blank">Workflow</a>, and <a href="http://contrast.co/launch-center-pro/" target="_blank">Launch Center Pro</a> which takes a blog post ready for the public, uploads it to Dropbox (read: saves it to my iMac), uploads it to my web host, generates the new RSS feed, and uploads the new RSS feed to my web host.  It was fairly easy to extend this workflow to automatically add or update the tags as necessary.  I am planning to write about these apps and this workflow soon.</p>
 <p>I have added quite a bit of complexity to the back-end, but things are now more functional and intuitive.  I would be very happy if you would use these new features and let me know what you think.  All of these new things have allowed me to focus more on the writing process.  Uploading and viewing are streamlined now - two things I don't have to worry about anymore.  I just hope I can figure out this whole "proof-reading" thing.</p>]]></description>
-		<link>https://thedadams.com/Post.html?post=2014-12Dec-30</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2014-12Dec-30</guid>
+		<link>https://thedadams.com/post.html?post=2014-12Dec-30</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2014-12Dec-30</guid>
 		<pubDate>Dec 30 2014</pubDate>
 
 	</item>
@@ -389,8 +389,8 @@ launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
 <br>
 <p>Next year can be one of the most exciting years of my life: my wife and I could begin the conversation of starting a family, I could finish my PhD, I could find a job, and I could enjoy the last calendar year before I turn 30.  Discipline and motivation, specifically the kind detailed above, will hopefully turn those "coulds" into "dids".</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2014-12Dec-26</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2014-12Dec-26</guid>
+		<link>https://thedadams.com/post.html?post=2014-12Dec-26</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2014-12Dec-26</guid>
 		<pubDate>Dec 26 2014</pubDate>
 
 	</item>
@@ -415,8 +415,8 @@ launchctl load ~/Library/LaunchAgents/com.USERNAME.cfdns.plist</pre>
 <br/>
 <p>Although the watchface is complete and published to the Pebble app store, it is not available just yet.  Since the watchface uses Javascript, this code must be bundled with the official Pebble app for it to be available to iOS users.  From what I understand, Android does not have this hurdle, and, thus, the watchface is available to Android users now.  If you would like to download Minimal, please click <a href="https://apps.getpebble.com/applications/5331eb4d18cd87063e00033d" target="_blank">here</a>.  Also, I would greatly appreciate that you "love" the watchface on the Pebble app store.  If you have have comments, suggestions, or questions, please do not hesitate to leave a comment below or contact me via <a href="https://alpha.app.net/thedadams">App.net</a> or <a href="https://twitter.com/thedadams">Twitter</a>.  I hope you enjoy Minimal as much as I have.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2014-06Jun-19</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2014-06Jun-19</guid>
+		<link>https://thedadams.com/post.html?post=2014-06Jun-19</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2014-06Jun-19</guid>
 		<pubDate>Jun 19 2014</pubDate>
 
 	</item>
@@ -459,8 +459,8 @@ Historically, 2013 was a mediocre year for consistency.  Mike Trout was the only
 <br>
 <p>I would like to make a small prediction for the 2014 season.  Let me preface this prediction by stating that I am a HUGE Mike Trout fan.  I admire his combination of hitting, speed, and defense.  After looking at the numbers, my guess is that he will have a down year.  Now, a down year for Trout is still an above average year, but I don't think he will be in the top 3 (maybe even 5) for either Index in 2014.  I would like to be wrong because I really like the guy, but the trend is that in a three year span a player generally has a down year.  Let's hope everyone else does, too.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2014-06Jun-15</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2014-06Jun-15</guid>
+		<link>https://thedadams.com/post.html?post=2014-06Jun-15</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2014-06Jun-15</guid>
 		<pubDate>Jun 15 2014</pubDate>
 
 	</item>
@@ -473,8 +473,8 @@ Historically, 2013 was a mediocre year for consistency.  Mike Trout was the only
 <p>The information I need for basketball over/unders is "freely" available.  That is, I can get the statistics I need everyday without having to sit down and do it myself.  I wrote a few scripts and added a couple <code>launchd plists</code> to get the information I need.  The relevant statistics are then sent to my phone via <a href="http://pushover.com" target="_blank">PushOver</a>.  I can look at the match-ups at my leisure wherever I am.  I won't be publishing my results until I have more time to devote to the decision making process.</p>
 <p>This was fun, and by no means am I done with sports betting.  If you do not know, I am a graduate student studying mathematics.  That is where I need to put my undivided attention at this time.  Once my dissertation is finished and I figure out what I want to do with my life (Hint: it won't be sports betting), I will pick it back up recreationally.</p>
 <p>If you have been reading these entries, I thank you.  If you would like to know more about what I tired, what didn't work, and what did work, please do not hesitate to contact me.</p>]]></description>
-		<link>https://thedadams.com/Post.html?post=2013-12Dec-19</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2013-12Dec-19</guid>
+		<link>https://thedadams.com/post.html?post=2013-12Dec-19</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2013-12Dec-19</guid>
 		<pubDate>Dec 19 2013</pubDate>
 
 	</item>
@@ -493,8 +493,8 @@ Historically, 2013 was a mediocre year for consistency.  Mike Trout was the only
 <br>
 <p>Things are getting very complicated and I am keeping things closed for many reasons.  However, I will be glad to share all of the things I have been tracking over the past several weeks at the end of the season.  Hopefully I will have some successful and interesting results to share.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2013-11Nov-12</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2013-11Nov-12</guid>
+		<link>https://thedadams.com/post.html?post=2013-11Nov-12</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2013-11Nov-12</guid>
 		<pubDate>Nov 12 2013</pubDate>
 
 	</item>
@@ -535,8 +535,8 @@ Strategy 1 went a combined 7 for 26; a winning percentage of 26.92%.  This defin
 <br>
 <p>I understand that this can get complicated as trends reveal themselves and strategies evolve.  If you have any questions, or think something is unclear, please feel free to leave a comment or contact me on a social network of your choice - see the icons in the welcome pane.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2013-11Nov-06</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2013-11Nov-06</guid>
+		<link>https://thedadams.com/post.html?post=2013-11Nov-06</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2013-11Nov-06</guid>
 		<pubDate>Nov 06 2013</pubDate>
 
 	</item>
@@ -571,8 +571,8 @@ As you can see, Strategy 1, which is the strategy of interest, did very well in 
 <br>
 <p>In closing I would like to mention that I am going to start experimenting with NBA handicapping.  I have started transporting the strategies, but have had little success with the spread bets.  It seems that there is too much variance for my strategy to work with the NBA.  Therefore, I am restricting my experiments with the NBA to over/under bets only.  Specializing will hopefully allow me to be more successful.</p>
 <br>]]></description>
-		<link>https://thedadams.com/Post.html?post=2013-10Oct-29</link>
-		<guid isPermaLink="false">                    https://thedadams.com/Post.html?post=2013-10Oct-29</guid>
+		<link>https://thedadams.com/post.html?post=2013-10Oct-29</link>
+		<guid isPermaLink="false">                    https://thedadams.com/post.html?post=2013-10Oct-29</guid>
 		<pubDate>Oct 29 2013</pubDate>
 
 	</item>

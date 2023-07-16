@@ -93,17 +93,17 @@ def generate_rss_feed() -> None:
                 f.write(
                     '\t\t<description><![CDATA[' +
                     file_json["body"].replace(
-                        'href="/post.html?post=',
-                        'href="https://thedadams.com/post.html?post=', -1
+                        'href="/blog.html?post=',
+                        'href="https://thedadams.com/blog.html?post=', -1
                     ) + ']]></description>\n'
                 )
-                f.write('\t\t<link>https://thedadams.com/post.html?post=' +
+                f.write('\t\t<link>https://thedadams.com/blog.html?post=' +
                         year + '-' + month + '-' + d +
                         '</link>\n'
                         )
                 f.write(
                     '\t\t<guid isPermaLink="false">\
-                    https://thedadams.com/post.html?post=' +
+                    https://thedadams.com/blog.html?post=' +
                     year + '-' + month + '-' + d +
                     '</guid>\n'
                 )

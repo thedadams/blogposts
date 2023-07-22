@@ -3,6 +3,8 @@
 import sys
 import os
 import json
+from datetime import datetime
+from html import escape
 
 POST_ROOT = "Posts/"
 RSS_FILE = "feed.rss"
@@ -57,12 +59,13 @@ def generate_rss_feed() -> None:
         print(e)
         sys.exit(1)
 
-    f.write('<?xml version="1.0"?>\n')
-    f.write('<rss version="2.0">\n\n')
-    f.write('<channel>\n\t<title>The Blog of a Math Nerd</title>\n')
-    f.write('\t<description>Sports, math, programming</description>\n')
-    f.write('\t<link>https://thedadams.com/blog.html</link>\n')
-    f.write('\t<copyright>&#169; Donnie Adams</copyright>\n')
+    f.write('<?xml version="1.0" encoding="UTF-8"?>')
+    f.write('<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">')
+    f.write('<channel><title>The Blog of a Math Nerd</title>')
+    f.write('<description>Sports, math, programming</description>')
+    f.write('<link>https://thedadams.com/blog.html</link>')
+    f.write('<atom:link href="https://raw.githubusercontent.com/thedadams/blogposts/main/feed.rss" rel="self" type="application/rss+xml" />')
+    f.write('<copyright>&#169; Donnie Adams</copyright>')
     years = os.listdir(POST_ROOT)
     years.sort(reverse=True)
     num = 0
@@ -86,30 +89,14 @@ def generate_rss_feed() -> None:
                 file_json = {}
                 with open(POST_ROOT + year + "/" + month + "/" + d) as file:
                     file_json = json.loads(file.read())
-                f.write('\n\t<item>\n\n')
-                f.write('\t\t<title>' + file_json["title"] + '</title>\n')
-                f.write(
-                    '\t\t<description><![CDATA[' +
-                    file_json["body"].replace(
-                        'href="/blog.html?post=',
-                        'href="https://thedadams.com/blog.html?post=', -1
-                    ) + ']]></description>\n'
-                )
-                f.write('\t\t<link>https://thedadams.com/blog.html?post=' +
-                        year + '-' + month + '-' + d +
-                        '</link>\n'
-                        )
-                f.write(
-                    '\t\t<guid isPermaLink="false">\
-                    https://thedadams.com/blog.html?post=' +
-                    year + '-' + month + '-' + d +
-                    '</guid>\n'
-                )
-                f.write(
-                    '\t\t<pubDate>' +
-                    month[2:] + ' ' + d + ' ' + year +
-                    '</pubDate>\n\n')
-                f.write('\t</item>\n\n')
+                f.write('<item>')
+                f.write('<title>' + file_json.get("title", "") + '</title>')
+                f.write('<description>'+ file_json.get("description", "") + '</description>')
+                f.write('<content:encoded>' + escape(file_json.get("body", "").replace('href="blog.html?post=', 'href="https://thedadams.com/blog.html?post=', -1)) + '</content:encoded>')
+                f.write('<link>https://thedadams.com/blog.html?post=' + year + '-' + month + '-' + d + '</link>')
+                f.write('<guid isPermaLink="false">https://thedadams.com/blog.html?post=' + year + '-' + month + '-' + d + '</guid>')
+                f.write('<pubDate>' + datetime(int(year), int(month[:2]), int(d), hour=12).strftime("%a, %d %b %Y %H:%M:%S GMT") + '</pubDate>')
+                f.write('</item>')
                 file.close()
                 num += 1
 
@@ -120,7 +107,7 @@ def generate_rss_feed() -> None:
                 break
         if done:
             break
-    f.write('</channel>\n\n</rss>')
+    f.write('</channel></rss>')
     f.close()
 
 
